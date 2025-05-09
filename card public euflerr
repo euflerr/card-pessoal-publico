@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Perfil - Arthur De Jesus</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <img src="c:\Users\Notebook\Downloads\WhatsApp Image 2025-05-09 at 14.08.24.jpeg" alt="Avatar de Arthur De Jesus " width="300">
+    <h1>Arthur De Jesus </Dialog></h1>
+    <p>Desenvolvedor Front-end apaixonado por tecnologia e design responsivo.</p>
+    <div class="links">
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+      <a href="#">Twitter</a>
+    </div>
+  </div>
+</body>
+</html>
+<style>body {
+  background-color: #f0f4f8;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+}
+
+.card img {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.card h1 {
+  font-size: 24px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 16px;
+  color: #778;
+  margin-bottom: 20px;
+}
+
+.card .links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #00aaff;
+  font-weight: bold;
+}
+
+.card .links a:hover {
+  text-decoration: underline;
+}
+</style>
